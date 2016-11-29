@@ -29,3 +29,10 @@ PHP 5.x or newer version, currently tested with 5.6.25
 
 * Set *q* to 0 for pixel effect, also could be used without *c* enabled
 * Set higher value to *cs* could make slow the glith process 
+* Make sure that display errrors setting is set to 0
+
+### Sample images
+
+![Glitch php sample](https://raw.githubusercontent.com/marcorubagotti/Glitch-on-the-fly-php/master/samples/example_1.jpg)
+![Glitch php sample](https://raw.githubusercontent.com/marcorubagotti/Glitch-on-the-fly-php/master/samples/example_2.jpg)
+![Glitch php sample](https://raw.githubusercontent.com/marcorubagotti/Glitch-on-the-fly-php/master/samples/example_3.jpg)
