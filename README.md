@@ -13,7 +13,7 @@ PHP 5.x or newer version, currently tested with 5.6.25
 ### How to use
 
 ```
-`<img src="glitch.php?src=your-img-path/image.jpg&c=1">`
+<img src="glitch.php?src=your-img-path/image.jpg&c=1">
 ```
 
 ### Parameters
@@ -21,9 +21,9 @@ PHP 5.x or newer version, currently tested with 5.6.25
 | Params | Description | Values |
 | --- | --- | --- |
 | src | url of image to glitch | *required* |
-| c | enable current glitch effect | 1 *optional* default 0 |
+| c | enable current glitch effect | *optional* 1 - default 0 |
 | cs | effect strength, recommended range from 1 to 5. highest value could break the image | *optional* default 3 |
-| q | quality of jpg image | 0/100 *optional* default 80 |
+| q | quality of jpg image | *optional* 0/100 - default 80 |
 
 ### Quick tips
 
