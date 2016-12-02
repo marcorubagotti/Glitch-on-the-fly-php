@@ -40,6 +40,10 @@ class Glitch
 			$str = file_get_contents($_GET['src']);
 			$img = imagecreatefromstring($str);
 		}
+
+		if ($this->isset_p()) {
+			imagefilter($img, IMG_FILTER_PIXELATE, $this->get_ps(), true);
+		}
 		
 		// output the image
 		header('Content-Type: image/jpg');
@@ -73,7 +77,6 @@ class Glitch
 		return $c;
 	}
 
-
 	function get_cs()
 	{
 		if (isset($_GET['cs'])) {
@@ -83,6 +86,27 @@ class Glitch
 		}
 		return $cs;
 	}
+
+	function isset_p()
+	{
+		if (isset($_GET['p']) && $_GET['p'] == 1) {
+			$p = true;
+		}else{
+			$p = false;
+		}
+		return $p;
+	}
+
+	function get_ps()
+	{
+		if (isset($_GET['ps'])) {
+			$ps = ($_GET['ps']);
+		}else{
+			$ps = 5;
+		}
+		return $ps;
+	}
+
 
 	function get_img_hex()
 	{

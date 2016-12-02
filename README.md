@@ -24,6 +24,8 @@ PHP 5.x or newer version, currently tested with 5.6.25
 | c | enable current glitch effect | *optional* 1 - default 0 |
 | cs | effect strength, recommended range from 1 to 5. highest value could break the image | *optional* default 3 |
 | q | quality of jpg image | *optional* 0/100 - default 80 |
+| p | enable pixelate effect | *optional* 1 - default 0 |
+| ps | pixelate strength | *optional* default 5 |
 
 ### Quick tips
 
