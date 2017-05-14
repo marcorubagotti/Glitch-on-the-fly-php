@@ -2,6 +2,8 @@
 
 A simple php script for glitch jpg/jpeg images on the fly, based on hex string manipulation
 
+![Glitch php sample](http://marcorubagotti.com/glitch.php?src=http://loremflickr.com/320/240&c=1&cs=5&q=1)
+
 ## Getting Started
 
 Put glitch.php file into your directory where are hosted the images, you can also use external images hosted anywhere
