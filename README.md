@@ -2,7 +2,7 @@
 
 A simple php script for glitch jpg/jpeg images on the fly, based on hex string manipulation
 
-![Glitch php sample](http://marcorubagotti.com/glitch.php?src=http://loremflickr.com/320/240&c=1&cs=5&q=10)
+![Glitch php sample](http://marcorubagotti.com/glitch.php?src=http://loremflickr.com/320/240/cat&c=1&cs=5&q=10)
 
 ## Getting Started
 
